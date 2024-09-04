@@ -1,7 +1,7 @@
 
 
 
-const fs=require('fs')
+import fs from "fs"
 
 
 fs.writeFile("hello.txt","this is asynchroiis",()=>{
